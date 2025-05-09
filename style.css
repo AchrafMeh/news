@@ -1,0 +1,90 @@
+/* الخلفية العامة */
+body {
+    background: linear-gradient(to bottom right, #ffeaa7, #fab1a0);
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* عنوان الموقع */
+h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 40px;
+    color: #2d3436;
+}
+
+/* التنقل */
+nav {
+    background: linear-gradient(to right, #fdcb6e, #e17055);
+    padding: 10px 0;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #2d3436;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 8px 12px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #d35400;
+    color: white;
+}
+
+/* الأقسام */
+section {
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+/* تخصيص كل قسم بلون مختلف */
+#sports h2 { color: #e74c3c; }
+#art h2 { color: #9b59b6; }
+#tech h2 { color: #0984e3; }
+#health h2 { color: #27ae60; }
+#environment h2 { color: #16a085; }
+#local h2 { color: #d35400; }
+
+/* العناوين داخل الأقسام */
+h2 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+h4 {
+    color: #2d3436;
+    margin-top: 20px;
+}
+
+/* الفقرات */
+p {
+    text-align: justify;
+    color: #444;
+}
+
+/* فاصل */
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
